@@ -15,7 +15,7 @@ const NavBar = () => {
     <>
       <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
       <nav className="fixed top-0 left-0 py-5 w-full  z-30 p-4 ">
-        <div className="flex items-center justify-between ">
+        <div className="flex items-center justify-between">
           <Logo />
           <div className="flex items-center justify-center gap-3">
             <ul className="list-none  md:flex md:flex-row gap-10 hidden ">

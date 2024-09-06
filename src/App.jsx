@@ -11,7 +11,10 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <section className="min-h-[100vh]  bg-[url('./assets/background-image/bg.jpg')] bg-cover bg-no-repeat relative">
+        <section
+          className="min-h-[100vh]  bg-[url('./assets/background-image/bg.jpg')] bg-cover bg-no-repeat relative"
+          id="main"
+        >
           <div className="max-w-7xl mx-auto px-5 pc:max-w-[1600px]">
             <NavBar />
             <HeroSection />

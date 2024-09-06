@@ -4,6 +4,7 @@ import {
   project_3,
   project_4,
   project_5,
+  project_6,
   js,
   react,
   redux,
@@ -17,6 +18,7 @@ import {
   twitter,
   instagram,
   vk,
+  git2,
 } from "../assets/index";
 
 const navLinks = [
@@ -57,23 +59,53 @@ const socials = [
 ];
 const projects = [
   {
-    name: "Сайт отеля",
-    description:
-      "Данный сайт предназначен для администратора отеля, который имеет функции добавления, удаления, изменения номеров. Имеет статистику на разные промежутки времени и базу данных Supabase",
+    name: "Сайт портфолио",
+    description: "",
     tags: [
       {
         name: "React",
         color: "text-cyan-400",
       },
       {
-        name: "Supabase",
-        color: "text-green-400",
+        name: "tailwind",
+        color: "text-blue-400",
+      },
+      {
+        name: "framer-motion",
+        color: "text-red-400",
       },
     ],
     image: project_1,
-
+    source_site_link: "https://the-hotel-helper.netlify.app/",
     source_code_link: "https://github.com/ValeriiBeliakov/hotel-helper",
   },
+  {
+    name: "Pizza-clone",
+    description:
+      "Этот проект повторяет функционал Dodo пиццы, создан на основе  next js, prisma+postgres, tailwind css.В проекты реализовано множество фильтров и сортировок, есть авторизация и регистрация(credentials, google, github).Без адаптива(только для desktop и более экранов)",
+    tags: [
+      {
+        name: "next js",
+        color: "text-green-400",
+      },
+      {
+        name: "ts",
+        color: "text-blue-500",
+      },
+      {
+        name: "postgress",
+        color: "text-blue-600",
+      },
+      {
+        name: "zustand",
+        color: "text-yellow-400",
+      },
+    ],
+    image: project_6,
+    source_site_link: "https://next-pizza-store.vercel.app/",
+    source_code_link: "https://github.com/ValeriiBeliakov/pizza-clone",
+  },
+
   {
     name: "Туристический сайт",
     description:
@@ -93,7 +125,7 @@ const projects = [
       },
     ],
     image: project_2,
-
+    source_site_link: " https://travel-ocean-project.netlify.app/",
     source_code_link: "https://github.com/ValeriiBeliakov/travel",
   },
   {
@@ -115,29 +147,8 @@ const projects = [
       },
     ],
     image: project_3,
-
+    source_site_link: "https://simple-omni-food-project.netlify.app/",
     source_code_link: "https://github.com/ValeriiBeliakov/food-project",
-  },
-  {
-    name: "World Travel",
-    description:
-      "Это сайт позволяет по клику узнавать свое локальное местоположение, а так же дает возможность оставить метки на в точках мира,где вы уже были",
-    tags: [
-      {
-        name: "React",
-        color: "text-cyan-400",
-      },
-      {
-        name: "Html",
-        color: "text-amber-500",
-      },
-      {
-        name: "js",
-        color: "text-yellow-300",
-      },
-    ],
-    image: project_4,
-    source_code_link: "https://github.com/ValeriiBeliakov/world-geo",
   },
   {
     name: "CyberPunk",
@@ -152,7 +163,38 @@ const projects = [
         color: "text-amber-500",
       },
     ],
+    image: project_4,
+    source_site_link: "https://cyberpunk-proj.netlify.app/",
+    source_code_link: "https://github.com/ValeriiBeliakov/cyberpunk",
+  },
+  {
+    name: "GadgetStrateg",
+    description:
+      "Сайт электроники GadgetStrateg, в проекте можно добавлять товары в корзину, избранное, создавать аккаунт.Есть множество фильтров и сортировок",
+    tags: [
+      {
+        name: "React",
+        color: "text-blue-500",
+      },
+      {
+        name: "redux-toolkit",
+        color: "text-red-500",
+      },
+      {
+        name: "scss",
+        color: "text-red-400",
+      },
+      {
+        name: "ts",
+        color: "text-blue-400",
+      },
+      {
+        name: "firebase",
+        color: "text-purple-500",
+      },
+    ],
     image: project_5,
+    source_site_link: "https://gadgetstrateg.netlify.app/",
     source_code_link: "https://github.com/ValeriiBeliakov/cyberpunk",
   },
 ];
@@ -165,6 +207,7 @@ const skills = [
   { icon: react, label: "react" },
   { icon: ts, label: "typescript" },
   { icon: redux, label: "redux" },
+  { icon: git2, label: "git" },
   { icon: tailwind, label: "tailwind" },
   { icon: npm, label: "npm" },
 ];

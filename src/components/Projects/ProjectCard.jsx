@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../utils/motion";
 import PropTypes from "prop-types";
 import github from "../../assets/icons/github.png";
+import website from "../../assets/icons/website.svg";
 
 ProjectCard.propTypes = {
   index: PropTypes.number,
@@ -11,6 +12,7 @@ ProjectCard.propTypes = {
   tags: PropTypes.array,
   image: PropTypes.node,
   source_code_link: PropTypes.string,
+  source_site_link: PropTypes.string,
 };
 export default function ProjectCard({
   index,
@@ -19,6 +21,7 @@ export default function ProjectCard({
   tags,
   image,
   source_code_link,
+  source_site_link,
 }) {
   return (
     <motion.section variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -32,7 +35,18 @@ export default function ProjectCard({
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
+
           <div className="absolute inset-0 flex justify-end gap-1 m-3">
+            <div
+              onClick={() => window.open(source_site_link, "_blank")}
+              className="w-10 h-10 bg-white rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={website}
+                alt="site"
+                className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className="w-10 h-10 bg-black rounded-full flex justify-center items-center cursor-pointer"
