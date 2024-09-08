@@ -6,9 +6,9 @@ const HeroSection = () => {
       <div className="absolute top-[50%]">
         <div className="flex flex-col items-start">
           <div className="w-full h-auto md:w-[560px] pc:w-[800px]">
-            <h1 className="text-xl pc:text-3xl">
+            <h1 className="text-xl pc:text-4xl">
               &mdash;Здравствуйте <br />
-              <span className="text-xl font-medium md:text-3xl">
+              <span className="text-xl font-medium md:text-4xl">
                 Я &mdash; Frontend web developer.
               </span>
             </h1>
@@ -18,7 +18,7 @@ const HeroSection = () => {
             </p>
             <div className="mt-7">
               <a href="#contacts">
-                <Title text="Контакты📭" className="text-sm" />
+                <Title text="Контакты📭" />
               </a>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import project_1 from "./projects/project_1.jpg";
+import project_1 from "./projects/project_1.png";
 import project_2 from "./projects/project_2.png";
 import project_3 from "./projects/project_3.png";
 import project_4 from "./projects/project_4.png";

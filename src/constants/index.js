@@ -76,8 +76,8 @@ const projects = [
       },
     ],
     image: project_1,
-    source_site_link: "https://the-hotel-helper.netlify.app/",
-    source_code_link: "https://github.com/ValeriiBeliakov/hotel-helper",
+    source_site_link: "./",
+    source_code_link: "https://github.com/ValeriiBeliakov/main-portfolio",
   },
   {
     name: "Pizza-clone",
