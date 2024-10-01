@@ -6,7 +6,7 @@ import Title from "../Title";
 const Contacts = () => {
   return (
     <div className="my-auto" id="contacts">
-      <div className="mx-7">
+      <div className="my-7">
         <Title text="Контакты 📨" className="flex flex-col items-center mb-8" />
         <div className="flex gap-5 tiny:flex-col-reverse sm:flex-row">
           <div style={{ flex: 1 }}>

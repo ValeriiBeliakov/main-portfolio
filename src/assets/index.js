@@ -20,6 +20,9 @@ import twitter from "./footer-icons/Twitter_.svg";
 import vk from "./footer-icons/vk.svg";
 import email from "./icons/email-icon.png";
 import whatsApp from "./icons/whatsApp.png";
+import docker from "./icons/docker.svg";
+import webpack from "./icons/webpack-icon.svg";
+import vs_code from "./icons/vs-code.svg";
 
 export {
   project_1,
@@ -44,4 +47,7 @@ export {
   vk,
   email,
   whatsApp,
+  docker,
+  webpack,
+  vs_code,
 };

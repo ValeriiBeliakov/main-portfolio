@@ -19,6 +19,9 @@ import {
   instagram,
   vk,
   git2,
+  docker,
+  webpack,
+  vs_code,
 } from "../assets/index";
 
 const navLinks = [
@@ -207,9 +210,12 @@ const skills = [
   { icon: react, label: "react" },
   { icon: ts, label: "typescript" },
   { icon: redux, label: "redux" },
+  { icon: docker, label: "docker" },
   { icon: git2, label: "git" },
   { icon: tailwind, label: "tailwind" },
   { icon: npm, label: "npm" },
+  { icon: webpack, label: "webpack" },
+  { icon: vs_code, label: "vs code" },
 ];
 const footer_icons = [
   { icon: vk, label: "vk" },
