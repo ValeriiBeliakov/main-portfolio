@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { navLinks } from "../constants";
-
 import menu_icon from "../assets/icons/menu_icon.svg";
 import close from "../assets/icons/close.svg";
 import MobileNav from "./MobileNav/MobileNav";
