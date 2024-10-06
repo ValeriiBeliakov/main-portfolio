@@ -197,8 +197,8 @@ const projects = [
       },
     ],
     image: project_5,
-    source_site_link: "https://gadgetstrateg.netlify.app/",
-    source_code_link: "https://github.com/ValeriiBeliakov/cyberpunk",
+    source_site_link: "https://gadgetstrateg.netlify.app/main",
+    source_code_link: "https://github.com/ValeriiBeliakov/gadgetstrateg",
   },
 ];
 
