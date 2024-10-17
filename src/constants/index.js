@@ -5,6 +5,7 @@ import {
   project_4,
   project_5,
   project_6,
+  project_7,
   js,
   react,
   redux,
@@ -199,6 +200,32 @@ const projects = [
     image: project_5,
     source_site_link: "https://gadgetstrateg.netlify.app/main",
     source_code_link: "https://github.com/ValeriiBeliakov/gadgetstrateg",
+  },
+  {
+    name: "Hotel-Helper",
+    description:
+      "Данный сайт предназначен для администратора.В нем есть множество фильтров,возможность управлять аккаунтом,номерами и т.д   p.s test_account@gmail.com 1234",
+    tags: [
+      {
+        name: "React",
+        color: "text-blue-500",
+      },
+      {
+        name: "styled components",
+        color: "text-purple-500",
+      },
+      {
+        name: "react query",
+        color: "text-blue-400",
+      },
+      {
+        name: "supabase",
+        color: "text-green-400",
+      },
+    ],
+    image: project_7,
+    source_site_link: "https://the-hotel-helper.netlify.app/",
+    source_code_link: "https://github.com/ValeriiBeliakov/hotel-helper",
   },
 ];
 
