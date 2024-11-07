@@ -6,6 +6,8 @@ import {
   project_5,
   project_6,
   project_7,
+  project_8,
+  project_9,
   js,
   react,
   redux,
@@ -226,6 +228,49 @@ const projects = [
     image: project_7,
     source_site_link: "https://the-hotel-helper.netlify.app/",
     source_code_link: "https://github.com/ValeriiBeliakov/hotel-helper",
+  },
+  {
+    name: "Тестовое задание",
+    description: "Верстка с адаптивным дизайном",
+    tags: [
+      {
+        name: "React",
+        color: "text-blue-500",
+      },
+      {
+        name: "scss",
+        color: "text-red-400",
+      },
+    ],
+    image: project_8,
+    source_site_link: "https://elaborate-faun-d02976.netlify.app/",
+    source_code_link: "https://github.com/ValeriiBeliakov/test",
+  },
+  {
+    name: "Анимированный слайдер",
+    description:
+      "Создание анимированного слайдера для экрана ноутбука и телефонв.Создание анимации с помощью gsap",
+    tags: [
+      {
+        name: "React",
+        color: "text-blue-500",
+      },
+      {
+        name: "Gsap",
+        color: "text-green-400",
+      },
+      {
+        name: "webpack",
+        color: "text-blue-600",
+      },
+      {
+        name: "swiper",
+        color: "text-blue-400",
+      },
+    ],
+    image: project_9,
+    source_site_link: "https://test-animated-slider.netlify.app/",
+    source_code_link: "https://github.com/ValeriiBeliakov/slider",
   },
 ];
 

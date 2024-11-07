@@ -5,6 +5,8 @@ import project_4 from "./projects/project_4.png";
 import project_5 from "./projects/project_5.png";
 import project_6 from "./projects/project_6.png";
 import project_7 from "./projects/project_7.png";
+import project_8 from "./projects/project_8.png";
+import project_9 from "./projects/project_9.png";
 import js from "./icons/js.svg";
 import react from "./icons/react.svg";
 import redux from "./icons/redux.svg";
@@ -33,6 +35,8 @@ export {
   project_5,
   project_6,
   project_7,
+  project_8,
+  project_9,
   js,
   react,
   redux,
