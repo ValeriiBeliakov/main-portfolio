@@ -25,6 +25,8 @@ import {
   docker,
   webpack,
   vs_code,
+  nextjs,
+  tanstack,
 } from "../assets/index";
 
 const navLinks = [
@@ -287,7 +289,9 @@ const skills = [
   { icon: tailwind, label: "tailwind" },
   { icon: npm, label: "npm" },
   { icon: webpack, label: "webpack" },
+  { icon: nextjs, label: "Next js" },
   { icon: vs_code, label: "vs code" },
+  { icon: tanstack, label: "Tanstack query" },
 ];
 const footer_icons = [
   { icon: vk, label: "vk" },

@@ -12,7 +12,7 @@ function App() {
     <>
       <BrowserRouter>
         <section
-          className="min-h-[100vh]  bg-[url('./assets/background-image/bg.jpg')] bg-cover bg-no-repeat relative"
+          className="min-h-[100vh]  bg-[url('./assets/background-image/bg.jpg')] bg-cover bg-no-repeat before:content-[''] before:absolute before:inset-0 before:bg-black/40 relative"
           id="main"
         >
           <div className="max-w-7xl mx-auto px-5 pc:max-w-[1600px]">

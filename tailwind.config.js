@@ -14,7 +14,7 @@ export default {
       },
       screens: {
         tiny: "300px",
-        pc: "2000px",
+        pc: "1400px",
       },
     },
   },

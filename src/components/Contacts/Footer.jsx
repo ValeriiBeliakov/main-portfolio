@@ -10,7 +10,7 @@ const Footer = () => {
             <FooterIcons key={`footer-icon-${index}`} {...icon} />
           ))}
         </ul>
-        <div>2024 frontend-dev.co</div>
+        <div>2024 frontend-dev.com</div>
       </div>
     </footer>
   );

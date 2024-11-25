@@ -26,6 +26,8 @@ import whatsApp from "./icons/whatsApp.png";
 import docker from "./icons/docker.svg";
 import webpack from "./icons/webpack-icon.svg";
 import vs_code from "./icons/vs-code.svg";
+import nextjs from "./icons/nextjs.svg";
+import tanstack from "./icons/tanstack.svg";
 
 export {
   project_1,
@@ -56,4 +58,6 @@ export {
   docker,
   webpack,
   vs_code,
+  nextjs,
+  tanstack,
 };
